@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		22522BC628E3341C00442A0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22522BC528E3341C00442A0D /* AppDelegate.swift */; };
 		22522BC828E3341C00442A0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22522BC728E3341C00442A0D /* SceneDelegate.swift */; };
-		22522BCA28E3341C00442A0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22522BC928E3341C00442A0D /* ViewController.swift */; };
-		22522BCD28E3341C00442A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22522BCB28E3341C00442A0D /* Main.storyboard */; };
 		22522BCF28E3341F00442A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22522BCE28E3341F00442A0D /* Assets.xcassets */; };
 		22522BD228E3341F00442A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22522BD028E3341F00442A0D /* LaunchScreen.storyboard */; };
 		22522BDA28E3371400442A0D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22522BD928E3371400442A0D /* .gitignore */; };
@@ -21,8 +19,6 @@
 		22522BC228E3341C00442A0D /* GitTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22522BC528E3341C00442A0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22522BC728E3341C00442A0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22522BC928E3341C00442A0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22522BCC28E3341C00442A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22522BCE28E3341F00442A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22522BD128E3341F00442A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22522BD328E3341F00442A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,7 +46,6 @@
 				4AE51EA4BE390AD6FD25EFB1 /* Pods-GitTodo.debug.xcconfig */,
 				369710FD79A1B625B8713C95 /* Pods-GitTodo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,8 +72,6 @@
 			children = (
 				22522BC528E3341C00442A0D /* AppDelegate.swift */,
 				22522BC728E3341C00442A0D /* SceneDelegate.swift */,
-				22522BC928E3341C00442A0D /* ViewController.swift */,
-				22522BCB28E3341C00442A0D /* Main.storyboard */,
 				22522BCE28E3341F00442A0D /* Assets.xcassets */,
 				22522BD028E3341F00442A0D /* LaunchScreen.storyboard */,
 				22522BD328E3341F00442A0D /* Info.plist */,
@@ -158,7 +151,6 @@
 				22522BDA28E3371400442A0D /* .gitignore in Resources */,
 				22522BD228E3341F00442A0D /* LaunchScreen.storyboard in Resources */,
 				22522BCF28E3341F00442A0D /* Assets.xcassets in Resources */,
-				22522BCD28E3341C00442A0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22522BCA28E3341C00442A0D /* ViewController.swift in Sources */,
 				22522BC628E3341C00442A0D /* AppDelegate.swift in Sources */,
 				22522BC828E3341C00442A0D /* SceneDelegate.swift in Sources */,
 			);
@@ -220,14 +211,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		22522BCB28E3341C00442A0D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22522BCC28E3341C00442A0D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		22522BD028E3341F00442A0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +349,6 @@
 				INFOPLIST_FILE = GitTodo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -396,7 +378,6 @@
 				INFOPLIST_FILE = GitTodo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
