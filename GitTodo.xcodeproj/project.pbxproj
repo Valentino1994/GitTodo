@@ -12,6 +12,7 @@
 		22522BCF28E3341F00442A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22522BCE28E3341F00442A0D /* Assets.xcassets */; };
 		22522BD228E3341F00442A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22522BD028E3341F00442A0D /* LaunchScreen.storyboard */; };
 		22522BDA28E3371400442A0D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 22522BD928E3371400442A0D /* .gitignore */; };
+		22DEA80728F70869007C4605 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DEA80628F70869007C4605 /* MainViewController.swift */; };
 		E2B671AE15E043C18F9CFA68 /* Pods_GitTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7827F59023966DA98AEF4D9E /* Pods_GitTodo.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		22522BD128E3341F00442A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22522BD328E3341F00442A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22522BD928E3371400442A0D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		22DEA80628F70869007C4605 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		369710FD79A1B625B8713C95 /* Pods-GitTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTodo.release.xcconfig"; path = "Target Support Files/Pods-GitTodo/Pods-GitTodo.release.xcconfig"; sourceTree = "<group>"; };
 		4AE51EA4BE390AD6FD25EFB1 /* Pods-GitTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTodo.debug.xcconfig"; path = "Target Support Files/Pods-GitTodo/Pods-GitTodo.debug.xcconfig"; sourceTree = "<group>"; };
 		7827F59023966DA98AEF4D9E /* Pods_GitTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,11 @@
 		22522BC428E3341C00442A0D /* GitTodo */ = {
 			isa = PBXGroup;
 			children = (
+				22C988B028EDCAE7003859FF /* Models */,
+				22C988AF28EDC95C003859FF /* GithubAPI */,
+				22C988AE28EDC957003859FF /* UserInfo */,
+				22C988AD28EDC91A003859FF /* IssueDetail */,
+				22C988AC28EDC8FC003859FF /* Main */,
 				22522BC528E3341C00442A0D /* AppDelegate.swift */,
 				22522BC728E3341C00442A0D /* SceneDelegate.swift */,
 				22522BCE28E3341F00442A0D /* Assets.xcassets */,
@@ -78,6 +85,42 @@
 				22522BD928E3371400442A0D /* .gitignore */,
 			);
 			path = GitTodo;
+			sourceTree = "<group>";
+		};
+		22C988AC28EDC8FC003859FF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				22DEA80628F70869007C4605 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		22C988AD28EDC91A003859FF /* IssueDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IssueDetail;
+			sourceTree = "<group>";
+		};
+		22C988AE28EDC957003859FF /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		22C988AF28EDC95C003859FF /* GithubAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GithubAPI;
+			sourceTree = "<group>";
+		};
+		22C988B028EDCAE7003859FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4364551433ADB4EDC45E0415 /* Frameworks */ = {
@@ -203,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DEA80728F70869007C4605 /* MainViewController.swift in Sources */,
 				22522BC628E3341C00442A0D /* AppDelegate.swift in Sources */,
 				22522BC828E3341C00442A0D /* SceneDelegate.swift in Sources */,
 			);
